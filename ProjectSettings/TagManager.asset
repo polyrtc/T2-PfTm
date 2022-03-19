@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Coin
   - Ground
+  - Enemy
+  - WinCoin
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -40,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 1459724541
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
